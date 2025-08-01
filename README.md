@@ -156,4 +156,4 @@ Para dúvidas ou personalizações específicas:
 
 ---
 
-**Desenvolvido com ❤️ para SAA × Cosmos** 
+**Desenvolvido by Noahzera e misterios ocultos** 

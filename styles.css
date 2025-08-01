@@ -201,12 +201,36 @@ body {
 
 .highlight {
     color: var(--white);
-    font-weight: 800;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.85));
+    font-weight: 900;
+    font-size: 1.1em;
+    text-shadow: 
+        0 4px 12px rgba(0, 0, 0, 0.7),
+        0 0 20px rgba(255, 255, 255, 0.3);
+    background: linear-gradient(135deg, 
+        rgba(255, 255, 255, 1), 
+        rgba(255, 255, 255, 0.95)
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    letter-spacing: 0.5px;
+    position: relative;
+}
+
+.highlight::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, 
+        rgba(255, 255, 255, 0.1), 
+        rgba(255, 255, 255, 0.05)
+    );
+    border-radius: 8px;
+    z-index: -1;
+    filter: blur(2px);
 }
 
 .hero-subtitle {
@@ -539,6 +563,32 @@ body {
     line-height: 1.5;
 }
 
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: var(--gradient-primary);
+    color: var(--white);
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+}
+
+.social-link:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-medium);
+    color: var(--white);
+}
+
 /* Contact Form */
 .contact-form-container {
     background: var(--white);
@@ -684,6 +734,16 @@ body {
     .contact-content {
         grid-template-columns: 1fr;
     }
+    
+    .social-links {
+        gap: 0.8rem;
+    }
+    
+    .social-link {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
+    }
 
     .footer-content {
         grid-template-columns: 1fr;
@@ -731,7 +791,10 @@ body {
     }
     
     .highlight {
-        text-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
+        text-shadow: 
+            0 3px 10px rgba(0, 0, 0, 0.6),
+            0 0 15px rgba(255, 255, 255, 0.2);
+        font-size: 1.05em;
     }
 
     .hero-subtitle {
@@ -779,7 +842,16 @@ body {
     }
     
     .highlight {
-        text-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+        text-shadow: 
+            0 4px 12px rgba(0, 0, 0, 0.7),
+            0 0 12px rgba(255, 255, 255, 0.15);
+        font-size: 1em;
+    }
+    
+    .social-link {
+        width: 30px;
+        height: 30px;
+        font-size: 0.9rem;
     }
 }
 
