@@ -54,10 +54,10 @@ Para alterar as cores do site, edite as variáveis CSS no arquivo `styles.css`:
 
 Edite o arquivo `index.html` para personalizar:
 
-- **Títulos e textos**: Altere os textos conforme sua empresa
-- **Informações de contato**: Atualize telefone, email e endereço
-- **Serviços**: Modifique os serviços oferecidos
-- **Estatísticas**: Ajuste os números na seção "Sobre"
+- **Títulos e textos**
+- **Informações de contato**
+- **Serviços**
+- **Estatísticas**
 
 ### 4. Configurar Formulário de Contato
 
@@ -86,21 +86,7 @@ O formulário atual simula o envio. Para torná-lo funcional:
    # Node.js (com http-server)
    npx http-server
    ```
-
-### Publicar Online
-
-1. **GitHub Pages** (Gratuito):
-   - Faça upload dos arquivos para um repositório GitHub
-   - Ative GitHub Pages nas configurações
-
-2. **Netlify** (Gratuito):
-   - Arraste a pasta do projeto para netlify.com
-   - O site será publicado automaticamente
-
-3. **Vercel** (Gratuito):
-   - Conecte seu repositório GitHub
-   - Deploy automático a cada atualização
-
+   
 ## 📱 Responsividade
 
 O site é totalmente responsivo e funciona em:
@@ -136,24 +122,6 @@ O site é totalmente responsivo e funciona em:
 - **Cosmos Roxo Escuro**: #4f46e5 (Roxo escuro do Cosmos)
 - **Texto**: #1f2937 (Cinza escuro)
 - **Fundo**: #f8faf8 (Verde muito claro)
-
-## 📞 Suporte
-
-Para dúvidas ou personalizações específicas:
-
-1. Verifique se todas as imagens estão no lugar correto
-2. Teste em diferentes navegadores
-3. Verifique a responsividade em diferentes dispositivos
-
-## 🚀 Próximos Passos
-
-1. **Adicione suas logos** na pasta do projeto
-2. **Personalize as cores** conforme sua marca
-3. **Atualize o conteúdo** com informações reais
-4. **Configure o formulário** para envio real
-5. **Teste em diferentes dispositivos**
-6. **Publique online**
-
 ---
 
-**Desenvolvido com ❤️ para SAA × Cosmos** 
+**Desenvolvido by noahzera and agentes**
